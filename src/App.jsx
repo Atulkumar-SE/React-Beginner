@@ -12,6 +12,7 @@ import ChangeEvent from "./components/onChangeEvent";
 import ControlledForm from "./components/controlledForm";
 import Checkbox from "./components/Checkbox";
 import RadioDropdown from "./components/Radio&Dropdown";
+import MapFxn from "./components/arrayAndobject/mapFxn";
 
 function App() {
   const [Jewellery, setJewellery] = useState("Ring");
@@ -48,6 +49,8 @@ console.log(theme, profile);
 return (
     <div className="bg-gray p-4">
    <Header />
+  <MapFxn />
+   <hr/>
    <RadioDropdown/>
    <hr/>
 <Checkbox/>
